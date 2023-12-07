@@ -18,3 +18,9 @@ Edited footer class.
 Then, removed text-dark from the line mentioned in the ppt. 
 Removed text-dark from _LoginPartial.cshtml file.
 Tested the project and it worked as i am able to see the choosen theme.
+At 5:01 PM 
+added additional stylesheets in_Layout.cshtml file.
+Then. added additional scripts to use in the same file.
+Now, added dropdown menu.
+Check the output. It is okay.
+changed the text Dropdown to "content Management".

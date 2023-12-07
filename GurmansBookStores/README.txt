@@ -17,3 +17,4 @@ changed nav class from navbar-light to navbar-dark and bg-white to bg-primary.
 Edited footer class.
 Then, removed text-dark from the line mentioned in the ppt. 
 Removed text-dark from _LoginPartial.cshtml file.
+Tested the project and it worked as i am able to see the choosen theme.

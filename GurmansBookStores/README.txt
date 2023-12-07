@@ -38,3 +38,5 @@ Build the project. 7:25 AM
 Resolved the errors and tested.
 In utility project, added SD.cs file and changed the class.
 Added project reference to the main project.
+Add a 'Customers' area to Areas.
+Changed the route in Startup.cs.

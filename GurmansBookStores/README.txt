@@ -71,3 +71,5 @@ Added Repository.cs class in Repository folder.
 Added code using files for assignment 2.
 At 3:36 PM created CategoryRepository.cs and ICategoryRepository.cs classes.
 Modified the files.
+Reviewed and cleared the errors in both the files. @4:17 PM.
+

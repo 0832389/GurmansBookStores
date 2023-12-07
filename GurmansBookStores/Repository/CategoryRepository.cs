@@ -1,6 +1,6 @@
-﻿using GurmanBookStores.DataAccess.Repository.IRepository;
-using GurmanBookStores.Models;
+﻿using GurmanBookStores.Models;
 using GurmansBookStores.DataAccess.Data;
+using GurmansBookStores.DataAccess.Repository.IRepository;
 using GurmanssBookStores.DataAccess.Repository;
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,11 @@ namespace GurmansBookStores.DataAccess.Repository
         public CategoryRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
+        }
+
+        public void Update(CategoryRepository category)
+        {
+            throw new NotImplementedException();
         }
     }
 }

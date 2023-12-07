@@ -68,3 +68,5 @@ Modified it following ppt.
 updated the ApplicationDbContext.cs file.
 updated IRepository.cs.
 Added Repository.cs class in Repository folder.
+Added code using files for assignment 2.
+

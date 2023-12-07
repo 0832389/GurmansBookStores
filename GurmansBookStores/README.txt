@@ -55,3 +55,4 @@ Finished Part-1.
 At 1:06 PM, on 2023/12/07 started Part-2.
 Build the project.
 Created migrations in after reviewing appsettings.json.
+ran the command to add migration (add-migration AddDefaultIdentityMigration).

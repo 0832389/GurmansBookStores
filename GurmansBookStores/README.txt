@@ -69,4 +69,5 @@ updated the ApplicationDbContext.cs file.
 updated IRepository.cs.
 Added Repository.cs class in Repository folder.
 Added code using files for assignment 2.
-
+At 3:36 PM created CategoryRepository.cs and ICategoryRepository.cs classes.
+Modified the files.

@@ -76,4 +76,5 @@ completed the remaining modifications in CategoryRepository.cs.
 Installed the NuGet package for Dapper.
 Implemented the same thing with new class in Repository folder.
 Implemented the ISP_Call interface
+Added connection to the database @ 5:02 PM
 

@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace GurmansBookStores.Data
+namespace GurmansBookStores.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

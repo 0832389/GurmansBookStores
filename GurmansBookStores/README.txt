@@ -72,4 +72,8 @@ Added code using files for assignment 2.
 At 3:36 PM created CategoryRepository.cs and ICategoryRepository.cs classes.
 Modified the files.
 Reviewed and cleared the errors in both the files. @4:17 PM.
+completed the remaining modifications in CategoryRepository.cs.
+Installed the NuGet package for Dapper.
+Implemented the same thing with new class in Repository folder.
+Implemented the ISP_Call interface
 

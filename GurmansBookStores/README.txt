@@ -62,4 +62,6 @@ Added a new table to DB by creating Category.cs file.
 Modified Category.cs file.
 Ran command add-migration AddCategoryToDb.
 Updated database.
-
+Created new folder Repository and IRepository inside it.
+Added new item IRepository.cs in IRepository folder.
+Modified it following ppt.

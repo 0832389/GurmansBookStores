@@ -43,3 +43,7 @@ Changed the route in Startup.cs.
 Moved HomeControllers.cs to Customer folder.
 Edited HomeControllers.cs to define conyrollers is in the Customer Area.
 Modified HomeController namespace.
+Moved Views>Home.
+Copied _ViewImport and _ViewStart to Customer Area.
+Modified _ViewStart.cshtml to reflect new path.
+Ran the application

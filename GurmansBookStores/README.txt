@@ -65,3 +65,6 @@ Updated database.
 Created new folder Repository and IRepository inside it.
 Added new item IRepository.cs in IRepository folder.
 Modified it following ppt.
+updated the ApplicationDbContext.cs file.
+updated IRepository.cs.
+Added Repository.cs class in Repository folder.

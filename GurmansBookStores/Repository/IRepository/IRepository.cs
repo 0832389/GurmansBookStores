@@ -9,12 +9,20 @@ namespace GurmansBookStores.Repository.IRepository
     public interface IRepository<T> where T : class
     {
 
-        T Get(int id);
+        T Get(int id); // Retrieved a category from the database
+
+        //List of Categories based on requirements.
 
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            string includeProperties = null);
+            string includeProperties = null //useful for foreign key references.
+            );
+
+        T GetFirstOrDefault(
+            Expression<Func<T, bool>> filter = null,
+            string includeProperties = null
+            );
 
         void Add(T entity); //to add an entity
         void Remove(int id); // to remove an object or category

@@ -50,3 +50,8 @@ Ran the application.
 At 12:55 PM added new admin area in Areas.
 Deleted Data, Models and Controllers folders.
 Updated GitHub Repository.
+Finished Part-1.
+
+At 1:06 PM, on 2023/12/07 started Part-2.
+Build the project.
+Created migrations in after reviewing appsettings.json.

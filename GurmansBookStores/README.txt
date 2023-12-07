@@ -35,3 +35,5 @@ Added project references.
 Edited the name of models folder to ViewModels.
 Changed the namspace of ErrorViewModels.cs to reflect the project.
 Build the project. 7:25 AM
+Resolved the errors and tested.
+In utility project, added SD.cs class.

@@ -60,4 +60,6 @@ After reviewing migrations folder, updated the database.
 Reviewed the SQL Server Object Explorer.
 Added a new table to DB by creating Category.cs file.
 Modified Category.cs file.
+Ran command add-migration AddCategoryToDb.
+Updated database.
 

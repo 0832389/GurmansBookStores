@@ -37,3 +37,4 @@ Changed the namspace of ErrorViewModels.cs to reflect the project.
 Build the project. 7:25 AM
 Resolved the errors and tested.
 In utility project, added SD.cs file and changed the class.
+Added project reference to the main project.

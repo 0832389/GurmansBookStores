@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GurmanBookStores.Models\GurmanBookStores.Models.csproj" />
+    <ProjectReference Include="..\GurmanBookStores.Utility\GurmanBookStores.Utility.csproj" />
     <ProjectReference Include="..\GurmansBookStores.DataAccess\GurmansBookStores.DataAccess.csproj" />
   </ItemGroup>
 

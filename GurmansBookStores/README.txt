@@ -40,3 +40,6 @@ In utility project, added SD.cs file and changed the class.
 Added project reference to the main project.
 Add a 'Customers' area to Areas.
 Changed the route in Startup.cs.
+Moved HomeControllers.cs to Customer folder.
+Edited HomeControllers.cs to define conyrollers is in the Customer Area.
+Modified HomeController namespace.

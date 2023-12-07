@@ -46,4 +46,7 @@ Modified HomeController namespace.
 Moved Views>Home.
 Copied _ViewImport and _ViewStart to Customer Area.
 Modified _ViewStart.cshtml to reflect new path.
-Ran the application
+Ran the application.
+At 12:55 PM added new admin area in Areas.
+Deleted Data, Models and Controllers folders.
+Updated GitHub Repository.

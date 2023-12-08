@@ -95,4 +95,6 @@ Now, at 11:51 AM, modified the Upsert.cshtml file to add partial views.
 Added asp-action to index.cshtml file.
 Create Upsert post action method in CategoryController.cs.
 Moved the _unitOfWork.save() method with return RedirectToaction method . categorycontroller.cs file.
+Added API call for HTTPDelete in the same file.
+Now, Added delete functionality in category.js.
 

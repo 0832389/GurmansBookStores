@@ -73,6 +73,16 @@ namespace GurmansBookStores.Areas.Admin.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
 }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFormDb = -_unitOfWork.Category.Get(id);
+            if (objFormDb == null)
+            {
+                return Json(new { success = false, message = "Delete successfull" });
+            }
+
+        }
         #endregion
     }
 }

@@ -1,4 +1,4 @@
-﻿Started at 4:02 PM on 2023/10/27.
+﻿Started at 4:02 PM on 2023/11/27.
 Created a new project in .NET5.0 and named it GurmansBookStores and authenticated it for individual accounts.
 I got my Area, Controllers and Data folders.
 Then, i added README.txt file.
@@ -98,5 +98,7 @@ Moved the _unitOfWork.save() method with return RedirectToaction method . catego
 Added API call for HTTPDelete in the same file.
 Now, Added delete functionality in category.js.
 Added default url function code to category.js.
+Finished Part 2.
+Did commit.
 
 

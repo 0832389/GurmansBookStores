@@ -34,5 +34,10 @@ namespace GurmansBookStores.DataAccess.Repository
             }
 
         }
+
+        public void Update(Category category)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

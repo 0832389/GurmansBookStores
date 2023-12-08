@@ -9,5 +9,6 @@ namespace GurmansBookStores.DataAccess.Repository.IRepository
     interface ICategoryRepository : IRepository<Category>
     {
         void Update(CategoryRepository category);
+        void Update(Category category);
     }
 }

@@ -1,4 +1,6 @@
 ﻿using GurmanBookStores.Models;
+using GurmansBookStores.DataAccess.Repository.IRepository;
+using GurmansBookStores.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,9 +15,9 @@ namespace GurmansBookStores.Areas.Admin.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(IUnitOfWork unitOfWork)
+        public CategoryController(UnitOfWork unitOfWork)
         {
-            _unitOfWork = unitOfWork;
+            _unitOfWork = (IUnitOfWork)unitOfWork;
         }
         public IActionResult Index()
         {
@@ -76,12 +78,17 @@ namespace GurmansBookStores.Areas.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFormDb = -_unitOfWork.Category.Get(id);
+            var objFormDb = _unitOfWork.Category.Get(id);
             if (objFormDb == null)
             {
                 return Json(new { success = false, message = "Delete successfull" });
             }
 
+        }
+
+        public static implicit operator CategoryController(Category v)
+        {
+            throw new NotImplementedException();
         }
         #endregion
     }

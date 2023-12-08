@@ -91,4 +91,6 @@ Added code to Upsert.cshtml from given file.
 Added partial view to the general Views/Shared.
 created _CreateAndBackToListButton and did coding in it.
 Created another partial view _EditAndBackToListButton and added additional code.
+Now, at 11:51 AM, modified the Upsert.cshtml file to add partial views.
+Added asp-action to index.cshtml file.
 

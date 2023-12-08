@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GurmanBookStores.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,6 +36,30 @@ namespace GurmansBookStores.Areas.Admin.Controllers
                 return NotFound();
             }
             return View();
+        }
+
+        //use HTTP POST to define the post-action method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public IActionResult Upsert(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                if (category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                    _unitOfWork.save();
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+
+                }
+                _unitOfWork.Category.Update(category);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(category);
         }
 
         // API calls here

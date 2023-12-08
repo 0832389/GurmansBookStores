@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using GurmansBookStores.DataAccess.Data;
+using GurmansBookStores.DataAccess.Repository.IRepository;
+using GurmansBookStores.Repository;
 //using GurmansBookStores.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,6 +37,7 @@ namespace GurmansBookStores
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            IServiceCollection serviceCollection = services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

@@ -99,3 +99,4 @@ Added API call for HTTPDelete in the same file.
 Now, Added delete functionality in category.js.
 Added default url function code to category.js.
 
+

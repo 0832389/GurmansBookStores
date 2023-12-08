@@ -86,5 +86,9 @@ Added Index.cshtml view to Category folder created in Areas/Views.
 Added code using the files provided.
 Now, _Layout.cshtml, moved the category link to Content Management Dropdown.
 Pushed to github.
-
+Added IAction result to controller and added view.
+Added code to Upsert.cshtml from given file.
+Added partial view to the general Views/Shared.
+created _CreateAndBackToListButton and did coding in it.
+Created another partial view _EditAndBackToListButton and added additional code.
 

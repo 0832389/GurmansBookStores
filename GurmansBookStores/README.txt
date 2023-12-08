@@ -85,5 +85,6 @@ Now, added CategoryController.cs in Areas/Admin and did changes to use IUnitOfWo
 Added Index.cshtml view to Category folder created in Areas/Views.
 Added code using the files provided.
 Now, _Layout.cshtml, moved the category link to Content Management Dropdown.
+Pushed to github.
 
 

@@ -7,9 +7,10 @@ using GurmansBookStores.DataAccess.Repository.IRepository;
 
 namespace GurmansBookStores.Repository
 {
-    public class UnitOfWork 
+    public class UnitOfWork
     {
         private readonly ApplicationDbContext _db;
+
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
@@ -18,7 +19,7 @@ namespace GurmansBookStores.Repository
         }
 
         public ICategoryRepository Category { get; private set; }
-        public ISP_Call SP_Call { get; private set; } 
+        public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()
         {

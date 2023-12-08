@@ -81,5 +81,5 @@ At 10:43 AM, Dec 08,2023.
 Added a new interface UnitOfWork in IRepository and UnitOfWork In Repository.
 Did changes as mentioned in ppt.
 Build the solution and did commits to guthub,
-
+Now, added CategoryController.cs in Areas/Admin and did changes to use IUnitOfWork.
 
